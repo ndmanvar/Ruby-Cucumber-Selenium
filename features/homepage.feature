@@ -1,8 +1,8 @@
-Feature: Sauce Labs Homepage
-  
+Feature: Wells Fargo Homepage
+
   Scenario: Verify homepage title
-    Given I am on the Sauce Labs homepage
+    Given I am on the Wells Fargo homepage
     Then the title of the page should be
       """
-      Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More
+      Wells Fargo - Personal & Business Banking - Student, Auto & Home Loans - Investing & Insurance
       """

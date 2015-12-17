@@ -1,8 +1,8 @@
 class HomePage
   include PageObject
 
-  def freeTrialButton
-  	@browser.find_element(:css => '.button.red[href*=trial]')
+  def smallBusinessBtn
+  	@browser.find_element(:id => 'tabNavSmallBusiness')
   end
 
 end
